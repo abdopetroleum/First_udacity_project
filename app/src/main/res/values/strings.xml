@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SPE Suez Student chapter</string>
+    <string name="main_title1">SPE International</string>
+    <string name="main_title2">SPE Suez</string>
+    <string name="main_title3">  Our Vision  </string>
+    <string name="main_title4">  Our Mission </string>
+    <string name="main_content1">The Largest Individual-Member Organization Serving Managers, Engineers, Scientists And Other Professionals Worldwide In The Upstream Segment Of The Oil And Gas Industry.</string>
+    <string name="main_content2">As a Part of SPE International, SPE Suez is a Leading Student Activity in Suez University Providing Technical and Non-Technical Services for All Student Specially Petrolium and Mining Engineers Students.</string>
+    <string name="main_content3">Our Vision Is Empowering The Students And Graduates To Compete In The National And International Plenary Of The Challenging Oil And Gas Industry.</string>
+    <string name="main_content4">Bridging The Gap Between Academic Theories And Their Implementation Practically As Well As Developing The Students’ Full Skills Set, Their Technical Knowledge And Their Personal Skills By Providing More Technical Courses, Sessions And Professional Technical Assistance.</string>
+
+
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/wave"
+        android:paddingBottom="52dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/large_text_margin_top"
+                android:fontFamily="@font/calibri"
+                android:text="@string/main_title1"
+                android:textColor="@color/colorTextView"
+                android:textSize="@dimen/large_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/small_text_horizontal_margin"
+                android:layout_marginTop="@dimen/main_padding"
+                android:layout_marginRight="@dimen/small_text_horizontal_margin"
+                android:fontFamily="@font/calibri"
+                android:text="@string/main_content1"
+                android:textColor="@color/colorTextView"
+                android:textSize="@dimen/small_text_size"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/large_text_margin_top"
+                android:fontFamily="@font/calibri"
+                android:text="@string/main_title2"
+                android:textColor="@color/colorTextView"
+                android:textSize="@dimen/large_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/small_text_horizontal_margin"
+                android:layout_marginTop="@dimen/main_padding"
+                android:layout_marginRight="@dimen/small_text_horizontal_margin"
+                android:fontFamily="@font/calibri"
+                android:text="@string/main_content2"
+                android:textColor="@color/colorTextView"
+                android:textSize="@dimen/small_text_size" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/spe"
+            android:alpha=".3"
+            android:scaleType="fitXY"
+            android:layout_marginTop="40dp"
+            />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="64dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/large_text_margin_top"
+                    android:background="@drawable/button10"
+                    android:fontFamily="@font/calibri"
+                    android:paddingLeft="@dimen/main_padding"
+                    android:paddingTop="@dimen/main_padding"
+                    android:paddingRight="@dimen/main_padding"
+                    android:paddingBottom="@dimen/main_padding"
+                    android:text="@string/main_title3"
+                    android:textColor="@color/colorTextView"
+                    android:textSize="@dimen/large_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/small_text_horizontal_margin"
+                    android:layout_marginTop="@dimen/main_padding"
+                    android:layout_marginRight="@dimen/small_text_horizontal_margin"
+                    android:fontFamily="@font/calibri"
+                    android:text="@string/main_content3"
+                    android:textColor="@color/colorBackground"
+                    android:textSize="@dimen/small_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/large_text_margin_top"
+                    android:background="@drawable/button10"
+                    android:fontFamily="@font/calibri"
+                    android:paddingLeft="@dimen/main_padding"
+                    android:paddingTop="@dimen/main_padding"
+                    android:paddingRight="@dimen/main_padding"
+                    android:paddingBottom="@dimen/main_padding"
+                    android:text="@string/main_title4"
+                    android:textColor="@color/colorTextView"
+                    android:textSize="@dimen/large_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/small_text_horizontal_margin"
+                    android:layout_marginTop="@dimen/main_padding"
+                    android:layout_marginRight="@dimen/small_text_horizontal_margin"
+                    android:fontFamily="@font/calibri"
+                    android:text="@string/main_content4"
+                    android:textColor="@color/colorBackground"
+                    android:textSize="@dimen/small_text_size" />
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:paddingBottom="10dp">
+
+            <com.shaishavgandhi.loginbuttons.GoogleButton
+                android:id="@+id/google"
+                android:layout_width="@dimen/social_media_size"
+                android:layout_height="@dimen/social_media_size"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/social_media_button_margin"
+                android:textAlignment="center"
+                app:iconSize="@dimen/social_media_size"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="@dimen/social_media_size">
+
+            </com.shaishavgandhi.loginbuttons.GoogleButton>
+
+            <com.shaishavgandhi.loginbuttons.FacebookButton
+                android:id="@+id/facebook"
+                android:layout_width="@dimen/social_media_size"
+                android:layout_height="@dimen/social_media_size"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/social_media_button_margin"
+                android:layout_toEndOf="@+id/google"
+                android:layout_toRightOf="@+id/google"
+                app:iconSize="@dimen/social_media_size"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="@dimen/social_media_size">
+
+            </com.shaishavgandhi.loginbuttons.FacebookButton>
+
+            <com.shaishavgandhi.loginbuttons.TwitterButton
+                android:id="@+id/twitter"
+                android:layout_width="@dimen/social_media_size"
+                android:layout_height="@dimen/social_media_size"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/social_media_button_margin"
+                android:layout_toEndOf="@+id/facebook"
+                android:layout_toRightOf="@+id/facebook"
+                app:iconSize="@dimen/social_media_size"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="@dimen/social_media_size" />
+
+            <com.shaishavgandhi.loginbuttons.LinkedInButton
+                android:id="@+id/linkedin"
+                android:layout_width="@dimen/social_media_size"
+                android:layout_height="@dimen/social_media_size"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/social_media_button_margin"
+                android:layout_toEndOf="@+id/twitter"
+                android:layout_toRightOf="@+id/twitter"
+                app:iconSize="@dimen/social_media_size"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="@dimen/social_media_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
